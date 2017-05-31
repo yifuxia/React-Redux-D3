@@ -1,4 +1,5 @@
 import React from 'react';
+import Container from './Container'
 
 class App extends React.Component {
 	render(){
@@ -7,6 +8,7 @@ class App extends React.Component {
 				<div style={{textAlign:'center'}}>
 					<h3>A react+redux+d3 template</h3>
 				</div>
+				<Container></Container>
 			</div>
 		)
 	}

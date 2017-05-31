@@ -1,7 +1,11 @@
-export const change_stock = (stock_name) => {
+export const change_bar_chart = () => {
 	return {
-		type: 'STOCK_CHANGED',
-		val: stock_name
+		type: 'BAR_DATA_CHANGED'
+	}
+}
+export const change_scatterplot = () => {
+	return {
+		type: 'SCATTER_DATA_CHANGED'
 	}
 }
 
